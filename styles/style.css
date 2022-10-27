@@ -30,20 +30,16 @@
   .header__title{
   flex-direction: row;
   align-items: center;
-  /*vertical-align: inherit;*/
-  position: absolute;
   margin: auto;
   margin-left: 64px;
   width: 730px;
   font-size: 102px;
-  font-weight: 600px;
   line-height: 96px;
-  font-style: 600;
+  font-style: normal;
   }
   .header__main-illustration {
     width: 765px;
     height: 608px;
-    background-image: url(../images/header-image.png);
     background-size: cover;
     right: 0;
     bottom: 0;
@@ -54,31 +50,89 @@
   background-image: url(../images/logo_place_header.svg);
   }
   .header__subtitle{
-    line-height: 25px;
-    width: 388px;
-    font-size: 18px;
-    font-weight: normal;
-    position: absolute;
-    margin: 0;
-    padding: 0 px;
-    bottom: 30px;
-    left: 64px;
+  line-height: 25px;
+  width: 388px;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  margin: 0;
+  padding: 0 px;
+  bottom: 30px;
+  left: 64px;
   }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
-  height: 568px;
-  width: 568px;
-  margin: 0;
-  position: absolute;
-  right: 0;
-  background-color: #2F80ED;
-  top: 64px;
+height: 568px;
+width: 568px;
+margin: 0;
+position: absolute;
+right: 0;
+background-color: #2F80ED;
+top: 64px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+width: 200px;
+color: white;
+margin-right: 0;
+margin-top: 80px;
 }
+
+.description{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding-top:100px 0;
+justify-content: center;
+}
+.two-colums{
+display:flex;
+justify-content:space-between;
+flex-direction:row;
+max-width:80%;
+margin-top:100px;
+margin-bottom:100px;
+width:80%;
+min-width:784px;
+position:relative;
+}
+
+.two-colums__brief{
+margin:0;
+font-size:18px;
+font-weight:normal;
+line-height:1.2;
+color:#2f80ed;
+width:175px;
+margin-top: 100px;
+
+
+}
+
+.two-columns__main-text {
+display: flex;
+font-weight: normal;
+flex-direction: column;
+min-width: 784px;
+max-width: 80%;
+font-size: 24px;
+}
+
+.two-colums__span-accent{ 
+  font-weight: 600;
+  }
+
+.two-colums__paragraph{
+margin: 30px 0;
+}
+
+.two-colums__paragraph:first child{
+margin-top: 0;
+}
+.two-colums__paragraph:last-child{
+margin-bottom: 0;
+}
+
+
+
