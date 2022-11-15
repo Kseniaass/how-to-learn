@@ -2,9 +2,5 @@
     border-radius: 50%;
     height: 160px;
     width: 160px;
-    column-gap: 100px;
-    row-gap: 60px;
     margin: 60px auto 0 auto;
-    list-style-type: none;
-    flex-wrap: wrap;
 }
